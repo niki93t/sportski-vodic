@@ -1,0 +1,20 @@
+<template name="nav">
+  <nav>
+    <div class="nav-wrapper blue">
+      <a href="{{pathFor route='home'}}" class="brand-logo">Sportski vodic</a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="{{pathFor route='map'}}">Map</a></li>
+        <li><a href="{{pathFor route='favourites'}}">Favourites</a></li>
+        <li><a href="{{pathFor route='search'}}">Search</a></li>
+        <li><a href="{{pathFor route='acount'}}">Acount</a></li>
+      </ul>
+      <ul class="side-nav" id="slide-out">
+        <li><a href="{{pathFor route='map'}}">Map</a></li>
+        <li><a href="{{pathFor route='favourites'}}">Favourites</a></li>
+        <li><a href="{{pathFor route='search'}}">Search</a></li>
+        <li><a href="{{pathFor route='acount'}}">Acount</a></li>
+      </ul>
+    </div>
+  </nav>
+</template>

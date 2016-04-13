@@ -1,0 +1,19 @@
+<head>
+  <title>simple</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<template name="main">
+  {{> nav}}
+  
+  {{> yield}}
+  
+  <script>
+    $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+    })
+  </script>
+
+</template>
+
